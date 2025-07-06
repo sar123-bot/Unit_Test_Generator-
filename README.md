@@ -85,6 +85,8 @@ python3 generate_coverage.py
 ---
 
 ## 🔄 Workflow Diagram
+
+```mermaid
 graph TD
     A[inputs/*.cc] --> B[generate_tests.py]
     B --> C[tests/*.cc]
@@ -93,6 +95,7 @@ graph TD
     E --> F[coverage_report/index.html]
     F --> G[analyze_coverage.py]
     G --> H[test_improvements.md]
+```
 
 ---
 ## 📂 Example Output
