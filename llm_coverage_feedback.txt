@@ -1,0 +1,18 @@
+🔍 LCov Coverage Summary Report
+
+Test Date: 2025-07-03
+
+-----------------------------------------------------------
+Lines......: 78.3% (412 of 526)
+Functions..: 85.1% (97 of 114)
+Branches...: 62.4% (128 of 205)
+-----------------------------------------------------------
+
+⚠️ Files with <70% line coverage:
+- controllers/AuthController.cc: 66%
+- controllers/JobsController.cc: 62%
+
+📌 Suggested Focus Areas:
+- Improve branch testing in controller logic
+- Add missing negative path tests
+- Validate all input structures thoroughly

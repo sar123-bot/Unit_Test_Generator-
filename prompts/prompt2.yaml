@@ -1,0 +1,16 @@
+task: "Refactor and improve the existing test file."
+
+input:
+  test_file: "<generated-test-file>.cc"
+
+requirements:
+  - Remove duplicated test cases
+  - Ensure all tests compile and run
+  - Add missing includes required for compilation
+  - Follow Google Test formatting standards
+  - Correct any test logic errors
+  - Do not modify valid existing test logic unless required
+  - Output only a clean C++ test file — no explanations or logs
+
+output:
+  file: "<refined-test-file>.cc"

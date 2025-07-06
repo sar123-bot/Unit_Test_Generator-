@@ -1,0 +1,16 @@
+task: "Generate Google Test unit tests for the provided C++ source file."
+
+input:
+  file: "<source-file-path>"
+
+requirements:
+  - Use the Google Test framework
+  - Cover all public methods of the class(es)
+  - Place each test case in its own TEST block
+  - Avoid duplicate tests
+  - Do not include main() in the output
+  - Add only necessary includes required for compilation
+  - Only output a valid .cc test file — no explanation or extra text
+
+output:
+  file: "<test-file-name>.cc"

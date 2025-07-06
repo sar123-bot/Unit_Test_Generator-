@@ -1,0 +1,15 @@
+task: "Fix build errors in the test file using the provided build log."
+
+input:
+  test_file: "<test-file>.cc"
+  build_log: "<build-log>.txt"
+
+requirements:
+  - Analyze the build log to identify compiler errors or missing symbols
+  - Add or correct includes, symbols, or logic causing the error
+  - Do not remove important test logic
+  - Ensure the fixed test file builds successfully
+  - Keep output as a valid and clean C++ test file — no explanations
+
+output:
+  file: "<fixed-test-file>.cc"

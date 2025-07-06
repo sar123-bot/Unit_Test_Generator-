@@ -1,0 +1,5 @@
+/mnt/c/Users/KIIT/desktop/unit-test-generator/third_party/CMakeFiles/bcrypt.dir
+/mnt/c/Users/KIIT/desktop/unit-test-generator/third_party/CMakeFiles/test_suite.dir
+/mnt/c/Users/KIIT/desktop/unit-test-generator/third_party/CMakeFiles/test.dir
+/mnt/c/Users/KIIT/desktop/unit-test-generator/third_party/CMakeFiles/edit_cache.dir
+/mnt/c/Users/KIIT/desktop/unit-test-generator/third_party/CMakeFiles/rebuild_cache.dir

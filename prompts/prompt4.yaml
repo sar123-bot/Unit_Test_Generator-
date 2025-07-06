@@ -1,0 +1,17 @@
+task: "Fix and finalize the test file using the original source and the test failure output."
+
+input:
+  source_file: "<source-file>.cc"
+  test_file: "<test-file>.cc"
+  failure_log: "<test-failure-output>.txt"
+
+requirements:
+  - Analyze failure output and fix the test accordingly
+  - Keep edge case tests unless they are invalid
+  - Preserve correct logic; only fix what's broken
+  - Output the corrected test file
+  - Briefly explain what was fixed (in a separate comment block or markdown section, not in test code)
+
+output:
+  file: "<working-test-file>.cc"
+  explanation: "Markdown summary of the changes"

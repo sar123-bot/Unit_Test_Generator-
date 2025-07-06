@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbcrypt.a CMakeFiles/bcrypt.dir/third_party/libbcrypt/src/bcrypt.c.o CMakeFiles/bcrypt.dir/third_party/libbcrypt/src/bcrypt.cc.o CMakeFiles/bcrypt.dir/third_party/libbcrypt/src/crypt_blowfish.c.o CMakeFiles/bcrypt.dir/third_party/libbcrypt/src/crypt_gensalt.c.o CMakeFiles/bcrypt.dir/third_party/libbcrypt/src/wrapper.c.o
+/usr/bin/ranlib libbcrypt.a

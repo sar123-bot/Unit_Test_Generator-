@@ -1,0 +1,7 @@
+CMake Error at CMakeLists.txt:33 (endif):
+  Flow control statements are not properly nested.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/c/Users/KIIT/desktop/unit-test-generator/build/CMakeFiles/CMakeOutput.log".
+make: *** No targets specified and no makefile found.  Stop.
